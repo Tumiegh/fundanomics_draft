@@ -846,8 +846,8 @@ nav li a {
 
     .quote .quote-text {
         width: 100%;
-        font-size: 0.9em;
-        margin-top: 2rem;
+        font-size: 0.6em;
+        margin-top: 1rem;
     }
 
     .author {
@@ -1841,8 +1841,8 @@ input::placeholder {
     }
 
     .form-container button {
-        font-size: 0.8em;
-        width: fit-content;
+        font-size: 0em;
+        width: min-content;
         height: 50px;
         margin: 0;
         border: none;
