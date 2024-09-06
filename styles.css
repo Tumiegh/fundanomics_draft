@@ -921,9 +921,8 @@ header {
 
 @media (min-width: 768px) and (max-width: 2560px) {
     .slideshow-container {
-        max-width: 84%;
-        margin-top: 39px;
-        margin-left: auto;
+        max-width: 44%;
+        margin-top: 36px;
         margin-right: auto;
     }
     
@@ -933,14 +932,14 @@ header {
         top: 0%;
         width: auto;
         padding: 59px;
-        margin-top: 2758px;
+        margin-top: 2587px;
         color: black;
         font-weight: bold;
         font-size: 30px;
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
-        margin-left: -119px;
+        margin-left: -84px;
     }
     .next {
         cursor: pointer;
@@ -948,25 +947,26 @@ header {
         top: 0%;
         width: auto;
         padding: 59px;
-        margin-top: 2758px;
+        margin-top: 2599px;
         color: black;
         font-weight: bold;
         font-size: 30px;
         user-select: none;
+        margin-top: 2591px;
+        margin-right: 484px;
     }
     
     .h6 {
         font-size: calc(0.6rem + .9vw);
         font-weight: bold;
-        margin-left: 324px;
-        margin-top: 20px;
+        margin-left: 268px;
+        margin-top: 32px;
     }
     
     .backcover-book {
-        width: 84%;
+        width: 44%;
         margin-left: auto;
-        margin-top: 55px;
-        margin-right: auto;
+        margin-top: -352px;
     }
 
     
