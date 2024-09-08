@@ -4,6 +4,11 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: white;
+}
+
+:root {
+    background-color: white;
 }
 
 .navbar {
@@ -490,6 +495,34 @@ section#statistics {
         position: absolute;
         right: 293px;
         top: 501px;
+    }
+    
+    img.merge-style {
+
+        width: 120px;
+        margin-left: 148px;
+    }
+    .merge .merge-content{
+        margin-left: 85px;
+        margin-top: 29px;
+    }
+    .merge-content p {
+        margin-top: 10px;
+    }
+
+    a.prev {
+        top: 45%;
+        display: flex;
+        color: black;
+        margin-left: auto;
+    }
+    a.next {
+        top: 45%;
+        color: black;
+        margin-right: auto;
+    }
+    .h6{
+        margin-left: 16px;
     }
 
 }
@@ -1068,4 +1101,83 @@ a.prev {
 .text-container li {
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+.image-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-text-section .image {
+    max-width: 40%; /* Adjust width as needed */
+    height: auto;
+    margin-right: 20px; /* Space between image and text */
+}
+
+.image-text-section .text-content {
+    max-width: 60%; /* Adjust width as needed */
+}
+
+@media (max-width: 768px) {
+    .image-text-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .image-text-section .image {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px; /* Space between image and text */
+    }
+
+    .image-text-section .text-content {
+        max-width: 100%;
+    }
+}
+
+/*Merge*/
+.merge {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: white;
+    margin-bottom: 66px;
+}
+
+.merge .image {
+    max-width: 40%;
+    /* Adjust width as needed */
+    height: auto;
+    margin-right: 20px;
+    /* Space between image and text */
+}
+
+.merge .merge-content {
+    max-width: 60%;
+    margin-left: 85px;
+    /* Adjust width as needed */
+}
+
+img.merge-image {
+    width: 120px;
+    margin-left: 319px;
+}
+
+@media (max-width: 768px) {
+    .merge {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .merge .image {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        /* Space between image and text */
+    }
+
+    .merge .merge-content {
+        max-width: 100%;
+    }
 }
