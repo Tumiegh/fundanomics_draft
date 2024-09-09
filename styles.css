@@ -4,6 +4,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: white;
 }
 
@@ -220,9 +223,9 @@ p.economy {
 }
 
 .backcover-book {
-    width: 90%;
-    margin-left: 13px;
-    margin-top: 55px;
+    display: flex;
+    width: 44%;
+    margin-left: auto;
 }
 
 .bg-light {
@@ -310,7 +313,7 @@ section#statistics {
 }
 
 /* Responsive Styles */
-@media (max-width: 1024px) and (max-width: 1280) {
+@media (max-width: 1024px) and (max-width: 1400) {
     .navbar-nav {
         text-align: center;
     }
@@ -510,17 +513,6 @@ section#statistics {
         margin-top: 10px;
     }
 
-    a.prev {
-        top: 45%;
-        display: flex;
-        color: black;
-        margin-left: auto;
-    }
-    a.next {
-        top: 45%;
-        color: black;
-        margin-right: auto;
-    }
     .h6{
         margin-left: 16px;
     }
@@ -612,8 +604,10 @@ body {
 }
 
 .slideshow-container {
-    max-width: 100%;
-    margin-top: 39px;
+    display: flex;
+    max-width: 44%;
+    margin-top: 36px;
+    margin-right: auto;
 }
 
 .mySlides {
@@ -952,7 +946,10 @@ header {
     filter: drop-shadow(0px 0px 3px white);
 }
 
-@media (min-width: 768px) and (max-width: 2560px) {
+/*Reg Para*/
+
+
+@media (max-width: 1400px) {
     .slideshow-container {
         max-width: 44%;
         margin-top: 36px;
@@ -962,10 +959,8 @@ header {
     .prev {
         cursor: pointer;
         position: absolute;
-        top: 0%;
         width: auto;
         padding: 59px;
-        margin-top: 2587px;
         color: black;
         font-weight: bold;
         font-size: 30px;
@@ -977,16 +972,13 @@ header {
     .next {
         cursor: pointer;
         position: absolute;
-        top: 0%;
         width: auto;
         padding: 59px;
-        margin-top: 2599px;
         color: black;
         font-weight: bold;
         font-size: 30px;
         user-select: none;
-        margin-top: 2591px;
-        margin-right: 484px;
+        margin-right: 599px;
     }
     
     .h6 {
@@ -999,7 +991,12 @@ header {
     .backcover-book {
         width: 44%;
         margin-left: auto;
-        margin-top: -352px;
+        margin-top: -413px;
+    }
+    img.merge-image {
+        width: 160px;
+        margin-left: 421px;
+        margin-bottom: 37px;
     }
 
     
@@ -1010,10 +1007,10 @@ h6 {
 }
 
 a.next {
-    top: -75%;
+    top:  auto
 }
 a.prev {
-    top: -75%;
+    top: auto
 }
 
 /*Project Literacy*/
@@ -1119,7 +1116,7 @@ a.prev {
     max-width: 60%; /* Adjust width as needed */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 890px) {
     .image-text-section {
         flex-direction: column;
         align-items: flex-start;
@@ -1134,6 +1131,30 @@ a.prev {
     .image-text-section .text-content {
         max-width: 100%;
     }
+    .backcover-book {
+        margin-top: 26px;
+        margin-left: 23px;
+        width: 232px;
+    }
+    h6 {
+        margin-left: -6px;
+    }
+
+    .next {
+        margin-right: -49px;
+    }
+    .prev {
+        margin-left: -58px;
+    }
+    img.merge-image {
+        width: 120px;
+        margin-left: 128px;
+    }
+
+    .slideshow-container {
+        max-width: 81%;
+    }
+    
 }
 
 /*Merge*/
@@ -1142,7 +1163,6 @@ a.prev {
     align-items: center;
     justify-content: flex-start;
     background-color: white;
-    margin-bottom: 66px;
 }
 
 .merge .image {
@@ -1159,25 +1179,57 @@ a.prev {
     /* Adjust width as needed */
 }
 
-img.merge-image {
-    width: 120px;
-    margin-left: 319px;
-}
-
-@media (max-width: 768px) {
+@media only screen and (min-width: 770px) {
     .merge {
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .merge .image {
-        max-width: 100%;
-        margin-right: 0;
-        margin-bottom: 20px;
-        /* Space between image and text */
+    img.merge-image {
+        margin-left: 149px;
     }
 
     .merge .merge-content {
         max-width: 100%;
+        margin-left: 344px;
+        margin-top: -142px;
+    }
+
+    .reg-para h4 {
+        margin-top: 28px;
+    }
+
+    h6 {
+        margin-left: 64px;
+    }
+
+    .backcover-book {
+        width: 523px;
+        margin-top: 27px;
+    }
+    .prev {
+        margin-left: -93px;
+    }
+    .next {
+        margin-right: 86px;
     }
 }
+ .reg-para h4 {
+    background-color: white;
+ }
+
+ @media (max-width: 1030px) {
+    
+    img.merge-image {
+        margin-left: 228px;
+    }
+    .backcover-book {
+        margin-top: -346px;
+    }
+    .next {
+        margin-right: 486px;
+    }
+
+ }
+
+
