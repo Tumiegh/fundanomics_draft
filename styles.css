@@ -1179,41 +1179,6 @@ a.prev {
     /* Adjust width as needed */
 }
 
-@media only screen and (min-width: 770px) {
-    .merge {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    img.merge-image {
-        margin-left: 149px;
-    }
-
-    .merge .merge-content {
-        max-width: 100%;
-        margin-left: 344px;
-        margin-top: -142px;
-    }
-
-    .reg-para h4 {
-        margin-top: 28px;
-    }
-
-    h6 {
-        margin-left: 64px;
-    }
-
-    .backcover-book {
-        width: 523px;
-        margin-top: 27px;
-    }
-    .prev {
-        margin-left: -93px;
-    }
-    .next {
-        margin-right: 86px;
-    }
-}
  .reg-para h4 {
     background-color: white;
  }
