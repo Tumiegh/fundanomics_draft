@@ -300,7 +300,7 @@ section#statistics {
 }
 
 /* Responsive Styles */
-@media (max-width: 900px) and (max-width: 1370px) {
+@media (max-width: 900px) and (max-width: 1024px) {
     .navbar-nav {
         text-align: center;
     }
@@ -920,7 +920,7 @@ header {
 /*Reg Para*/
 
 
-@media (min-width: 900px) and (max-width: 1370px) {
+@media (min-width: 900px) and (max-width: 1024x) {
     .slideshow-container {
         display: flex;
         max-width: 44%;
@@ -1139,7 +1139,7 @@ h6 {
     background-color: white;
  }
 
- @media (min-width: 900px) and (max-width: 1370px) {
+ @media (min-width: 900px) and (max-width: 1024px) {
     
     img.merge-image {
         margin-left: 546px;
@@ -1159,7 +1159,61 @@ h6 {
         background-color: white;
     }
 
- }
+}
+
+@media (min-width: 1280px) {
+    img.merge-image {
+        margin-left: 639px;
+        margin-bottom: 32px;
+        width: 181px;
+    }
+
+    .merge .merge-content{
+        max-width: 60%;
+        margin-left: 85px;
+        margin-top: -125px;
+    }
+    section.merge {
+        background-color: white;
+    }
+    
+    .prev {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 59px;
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        margin-left: -84px;
+        margin-top: 89px;
+    }
+    .next {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        padding: 59px;
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+        user-select: none;
+        margin-right: 621px;
+        margin-top: 89px;
+    }
+
+    .backcover-book {
+        width: 44%;
+        margin-left: auto;
+        margin-top: -423px;
+    }
+
+    body {
+        background-color: white;
+    }
+}
 
 
  
