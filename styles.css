@@ -4,9 +4,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
-body {
+.body {
     background-color: white;
 }
 
@@ -124,14 +125,6 @@ h6 {
     margin-top: 20px;
 }
 
-
-
-.backcover-book {
-    width: 45%;
-    margin-left: 256px;
-    margin-top: 103px;
-}
-
 span {
     color: #fbc02d;
     font-weight: bold;
@@ -222,12 +215,6 @@ p.economy {
     height: 86px;
 }
 
-.backcover-book {
-    display: flex;
-    width: 44%;
-    margin-left: auto;
-}
-
 .bg-light {
     --bs-bg-opacity: 1;
     background-color: white !important;
@@ -313,7 +300,7 @@ section#statistics {
 }
 
 /* Responsive Styles */
-@media (max-width: 1024px) and (max-width: 1400) {
+@media (max-width: 900px) and (max-width: 1370px) {
     .navbar-nav {
         text-align: center;
     }
@@ -400,14 +387,6 @@ section#statistics {
         margin: 71px;
     }
 
-    .slideshow-container {
-        position: relative;
-        max-width: 65%;
-        margin: auto;
-        margin-top: 39px;
-        margin-bottom: 16px;
-    }
-
     .backcover-book {
         width: 73%px;
         margin-top: 53px;
@@ -416,7 +395,7 @@ section#statistics {
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 890px) {
     #home h1 {
         font-size: 2rem;
     }
@@ -506,8 +485,9 @@ section#statistics {
         margin-left: 148px;
     }
     .merge .merge-content{
-        margin-left: 85px;
+        margin-left: -25px;
         margin-top: 29px;
+        margin-bottom: -39px;
     }
     .merge-content p {
         margin-top: 10px;
@@ -516,10 +496,17 @@ section#statistics {
     .h6{
         margin-left: 16px;
     }
+    section.merge {
+        background-color: white;
+    }
+
+    .reg-para h4 {
+        margin-top: 56px;
+    }
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 890px) {
 
     .box.orange {
         background-color: #f28c00;
@@ -619,22 +606,6 @@ img {
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
 .next {
     right: 0;
     border-radius: 3px 0 0 3px;
@@ -949,8 +920,9 @@ header {
 /*Reg Para*/
 
 
-@media (max-width: 1400px) {
+@media (min-width: 900px) and (max-width: 1370px) {
     .slideshow-container {
+        display: flex;
         max-width: 44%;
         margin-top: 36px;
         margin-right: auto;
@@ -990,27 +962,14 @@ header {
     
     .backcover-book {
         width: 44%;
-        margin-left: auto;
-        margin-top: -413px;
+        margin-left: 496px;
+        margin-top: -339px;
     }
-    img.merge-image {
-        width: 160px;
-        margin-left: 421px;
-        margin-bottom: 37px;
-    }
-
     
 }
 
 h6 {
     margin-left: 324px;
-}
-
-a.next {
-    top:  auto
-}
-a.prev {
-    top: auto
 }
 
 /*Project Literacy*/
@@ -1146,6 +1105,23 @@ a.prev {
     .prev {
         margin-left: -58px;
     }
+
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -29px;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        margin-left: -10px;
+    }
+    
     img.merge-image {
         width: 120px;
         margin-left: 128px;
@@ -1158,43 +1134,32 @@ a.prev {
 }
 
 /*Merge*/
-.merge {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: white;
-}
-
-.merge .image {
-    max-width: 40%;
-    /* Adjust width as needed */
-    height: auto;
-    margin-right: 20px;
-    /* Space between image and text */
-}
-
-.merge .merge-content {
-    max-width: 60%;
-    margin-left: 85px;
-    /* Adjust width as needed */
-}
 
  .reg-para h4 {
     background-color: white;
  }
 
- @media (max-width: 1030px) {
+ @media (min-width: 900px) and (max-width: 1370px) {
     
     img.merge-image {
-        margin-left: 228px;
+        margin-left: 546px;
+        margin-bottom: 32px;
+        width: 181px;
     }
-    .backcover-book {
-        margin-top: -346px;
-    }
+
     .next {
         margin-right: 486px;
+    }
+    .merge .merge-content {
+        max-width: 60%;
+        margin-left: 85px;
+        margin-top: -125px;
+    }
+    body {
+        background-color: white;
     }
 
  }
 
 
+ 
