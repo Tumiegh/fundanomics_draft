@@ -1115,10 +1115,11 @@ p {
     }
     
     .title-slogan {
-        top: 15%;
-        left: 2%;
-        right: 2%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
+        width: 90%;
     }
     
     .title-slogan h1 {
@@ -1127,25 +1128,26 @@ p {
     }
     
     .circle-logo {
-        width: 250px;
-        height: 250px;
-        bottom: -125px;
-        right: -125px;
+        width: 200px;
+        height: 200px;
+        bottom: -20px;
+        right: -20px;
     }
     
     .circle-logo img {
-        width: 120px;
+        width: 100px;
     }
     
     .circle-star {
-        width: 200px;
-        height: 200px;
-        top: -100px;
+        width: 120px;
+        height: 120px;
+        top: 5%;
+        right: 5%;
     }
     
     .circle-star img {
-        width: 80px;
-        height: 80px;
+        width: 50px;
+        height: 50px;
     }
     
     .yellow-circle {
@@ -1223,10 +1225,11 @@ p {
     }
     
     .title-slogan {
-        top: 10%;
-        left: 1rem;
-        right: 1rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         text-align: center;
+        width: 90%;
     }
     
     .title-slogan h1 {
@@ -1239,25 +1242,26 @@ p {
     }
     
     .circle-logo {
-        width: 200px;
-        height: 200px;
-        bottom: -100px;
-        right: -100px;
+        width: 150px;
+        height: 150px;
+        bottom: -10px;
+        right: -10px;
     }
     
     .circle-logo img {
-        width: 100px;
+        width: 80px;
     }
     
     .circle-star {
-        width: 150px;
-        height: 150px;
-        top: -75px;
+        width: 100px;
+        height: 100px;
+        top: 3%;
+        right: 3%;
     }
     
     .circle-star img {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: 40px;
     }
     
     .yellow-circle {
