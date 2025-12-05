@@ -342,10 +342,8 @@ p {
 }
 
 .circle-logo img {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-top: -50px;
-    margin-right: -50px;
     animation: logoFloat 4s ease-in-out infinite;
 }
 
@@ -1135,7 +1133,7 @@ p {
     }
     
     .circle-logo img {
-        width: 100px;
+        width: 80px;
     }
     
     .circle-star {
@@ -1249,7 +1247,7 @@ p {
     }
     
     .circle-logo img {
-        width: 80px;
+        width: 60px;
     }
     
     .circle-star {
