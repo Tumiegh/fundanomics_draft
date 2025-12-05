@@ -4,307 +4,520 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundanomics</title>
+    <title>Fundanomics - Shaping Minds Today to Lead Tomorrow</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <!--css links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&amp;display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Concert+One&amp;family=Dosis:wght@200..800&amp;display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <div class="navbarlogo">
-                    <img src="images/navbar logo.jpg" alt="logo">
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#books">Books</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#project">Project</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="images/navbar logo.jpg" alt="Fundanomics Logo" class="logo">
+                <span class="brand-text">Fundanomics</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#books">Books</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <main>
-        <section class="first-page">
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="hero-content-wrapper">
             <div class="title-slogan">
                 <h1>Shaping minds today to lead tomorrow</h1>
                 <p><span>The Democracy Pack</span> - books tailor made to equip the Future</p>
             </div>
             <div class="circle-logo">
-                <img src="images/logo.png" alt="logo">
+                <img src="images/logo.png" alt="Fundanomics Logo">
             </div>
             <div class="yellow-circle"></div>
             <div class="circle-star">
-                <img src="./images/star.png" alt="star icon">
+                <img src="images/star.png" alt="star icon">
             </div>
-            <div class="arrows">
-                <a href="#why-trust-us"><img src="images/Vector.png" alt="arrows"></a>
-            </div>
-        </section>
-    </main>
-
-    <!-- About Section -->
-    <section id="about" class="p-5">
-        <div class="container">
-            <h2> <span>About</span> Fundanomics</h2>
-            <p>Fundanomics is committed to using education as a tool to shape future citizens who will safeguard
-                democratic
-                gains, value voting, and become proactive members of society.</p>
-            <h3>Our Vision</h3>
-            <p>To use education and literature to shape minds today who will lead tomorrow.</p>
-            <h3>Our Mission</h3>
-            <p>To create educational tools and programs that orient the next generation of patriotic and responsible
-                citizens.</p>
-            <h3>The <span>Purpose</span> of Fundanomics</h3>
-            <p>The primary purpose of Fundanomics is to ensure that as many children as possible have access to quality
-                education programs and tools, igniting reading and learning for meaning.</p>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
         </div>
     </section>
 
-    <!-- Statistics -->
-    <section id="statistics">
-        <h2>
-            <span class="color">Statistics</span>
-            "on SA Literacy"
-        </h2>
-        <div class="statistics boxes">
-            <div class="box orange">
-                "Basic literacy among children in South Africa has declined. A new report from the 2030 Reading Panel
-                has been found"
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">
+                        About <span class="highlight">Fundanomics</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Committed to using education as a tool to shape future citizens who will safeguard democratic gains, value voting, and become proactive members of society.
+                    </p>
+                </div>
             </div>
-            <div class="box grey">
-                "Most children leave grade one without knowing the alphabet, while 82% of grade 4 children cannot read
-                without meaning"
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Our Vision</h3>
+                        <p>To use education and literature to shape minds today who will lead tomorrow.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To create educational tools and programs that orient the next generation of patriotic and responsible citizens.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Our Purpose</h3>
+                        <p>To ensure that as many children as possible have access to quality education programs and tools, igniting reading and learning for meaning.</p>
+                    </div>
+                </div>
             </div>
-            <div class="box yellow">
-                "Fewer primary school children can read for meaning now than before Covid pandemic."
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">
+                        <span class="highlight">Statistics</span> on SA Literacy
+                    </h2>
+                </div>
             </div>
-            <div class="box blue">
-                "Meaning becomes familiar when the child can resonate with the environment. On a daily basis children
-                are accustomed to certain jargon and lexicon based on familiarity"
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="stat-card stat-orange">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line-down"></i>
+                        </div>
+                        <p>Basic literacy among children in South Africa has declined according to the 2030 Reading Panel report</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="stat-card stat-grey">
+                        <div class="stat-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <p>Most children leave grade one without knowing the alphabet, while 82% of grade 4 children cannot read with meaning</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="stat-card stat-yellow">
+                        <div class="stat-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <p>Fewer primary school children can read for meaning now than before the Covid pandemic</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="stat-card stat-blue">
+                        <div class="stat-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <p>Meaning becomes familiar when children can resonate with their environment and daily experiences</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
     <!-- Books Section -->
-    <section id="books" class="bg-light p-5">
+    <section id="books" class="books-section">
         <div class="container">
-            <h2>Fundanomics</h2>
-            <p>A series of books for children between 7 and 12 to teach them about the basic concepts of South African
-                democracy.</p>
-        </div>
-        <div class="themes">
-            <div class="outer-theme-card">
-                <div class="theme-card ubuntu">
-                    <img src="vectors/Vector.svg" alt="ubuntu icon">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">
+                        The <span class="highlight">Democracy Pack</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        A series of engaging books for children aged 7-12, teaching the fundamental concepts of South African democracy through fun adventures.
+                    </p>
                 </div>
-                <p class="ubuntu">Ubuntu</p>
             </div>
-            <div class="outer-theme-card">
-                <div class="theme-card democracy">
-                    <img src="vectors/Vector (1).svg" alt="democracy icon">
+            
+            <!-- Book Themes -->
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-2-4 mb-4">
+                    <div class="theme-card ubuntu-theme">
+                        <div class="theme-icon">
+                            <img src="vectors/Vector.svg" alt="Ubuntu">
+                        </div>
+                        <h4>Ubuntu</h4>
+                    </div>
                 </div>
-                <p class="democracy">Democracy</p>
-            </div>
-            <div class="outer-theme-card">
-                <div class="theme-card constitution">
-                    <img src="vectors/Vector (2).svg" alt="constitution icon">
+                <div class="col-md-6 col-lg-2-4 mb-4">
+                    <div class="theme-card democracy-theme">
+                        <div class="theme-icon">
+                            <img src="vectors/Vector (1).svg" alt="Democracy">
+                        </div>
+                        <h4>Democracy</h4>
+                    </div>
                 </div>
-                <p class="constitution">The Constitution</p>
-            </div>
-            <div class="outer-theme-card">
-                <div class="theme-card  economy">
-                    <img src="vectors/Vector (3).svg" alt="economy icon">
+                <div class="col-md-6 col-lg-2-4 mb-4">
+                    <div class="theme-card constitution-theme">
+                        <div class="theme-icon">
+                            <img src="vectors/Vector (2).svg" alt="Constitution">
+                        </div>
+                        <h4>Constitution</h4>
+                    </div>
                 </div>
-                <p class="economy">The Economy</p>
-            </div>
-            <div class="outer-theme-card">
-                <div class="theme-card  patriotism">
-                    <img src="vectors/Vector (4).svg" alt="patriotism icon">
+                <div class="col-md-6 col-lg-2-4 mb-4">
+                    <div class="theme-card economy-theme">
+                        <div class="theme-icon">
+                            <img src="vectors/Vector (3).svg" alt="Economy">
+                        </div>
+                        <h4>Economy</h4>
+                    </div>
                 </div>
-                <p class="patriotism">Patriotism</p>
+                <div class="col-md-6 col-lg-2-4 mb-4">
+                    <div class="theme-card patriotism-theme">
+                        <div class="theme-icon">
+                            <img src="vectors/Vector (4).svg" alt="Patriotism">
+                        </div>
+                        <h4>Patriotism</h4>
+                    </div>
+                </div>
             </div>
-        </div>
-        <h3>The <span>Books</span></h3>
-        <p>The books follow the adventures of two young characters, Themba and Tammy, as they learn about democracy,
-            patriotism, the economy, the constitution, and ubuntu with teacher Miss Khumalo.</p>
-        <h4>
-            Sample Books
-        </h4>
-        <div class="slideshow-container">
-            <!-- Slides -->
-            <div class="mySlides">
-                <img src="images/constitutionbook.jpg" style="width:100%">
+
+            <!-- Book Story -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="story-section">
+                        <h3>Meet Themba & Tammy</h3>
+                        <p>Follow the exciting adventures of two young friends, Themba and Tammy, as they discover the world of democracy, patriotism, economy, constitution, and ubuntu alongside their wise teacher, Miss Khumalo.</p>
+                    </div>
+                </div>
             </div>
-            <div class="mySlides">
-                <img src="images/democracybook.jpg" style="width:100%">
+
+            <!-- Book Showcase -->
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-4">Sample Books</h4>
+                    <div class="book-slideshow">
+                        <div class="slideshow-container">
+                            <div class="mySlides active">
+                                <img src="images/constitutionbook.jpg" alt="Constitution Book">
+                            </div>
+                            <div class="mySlides">
+                                <img src="images/democracybook.jpg" alt="Democracy Book">
+                            </div>
+                            <div class="mySlides">
+                                <img src="images/economybook.jpg" alt="Economy Book">
+                            </div>
+                            <div class="mySlides">
+                                <img src="images/patriotismbook.jpg" alt="Patriotism Book">
+                            </div>
+                            <div class="mySlides">
+                                <img src="images/ubuntubook.jpeg" alt="Ubuntu Book">
+                            </div>
+                            <button class="slide-btn prev" onclick="plusSlides(-1)">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <button class="slide-btn next" onclick="plusSlides(1)">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-center mb-4">Book Details</h4>
+                    <div class="book-details">
+                        <img src="images/backcover book.jpg" alt="Book Back Cover" class="back-cover-img">
+                    </div>
+                </div>
             </div>
-            <div class="mySlides">
-                <img src="images/economybook.jpg" style="width:100%">
-            </div>
-            <div class="mySlides">
-                <img src="images/patriotismbook.jpg" style="width:100%">
-            </div>
-            <div class="mySlides">
-                <img src="images/ubuntubook.jpeg" style="width:100%">
-            </div>
-            <!-- Navigation buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <h6>These are the <span>front and back covers</span> of the books</h6>
-        <div class="backcover-book">
-            <img src="images/backcover book.jpg" style="width: 100%">
         </div>
     </section>
 
-    <!-- Project Section -->
-    <section id="project" class="p-5">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
         <div class="container">
-            <h2>Project Pilot</h2>
-            <p>The Fundanomics project team has identified Gauteng Province as a pilot area for the distribution of the
-                democracy pack. The idea is to integrate the learning process with the benefits of understanding
-                democracy.
-            </p>
-        </div>
-    </section>
-
-    <!--Video-->
-    <video width="320" height="240" controls>
-        <source src="images/vid1.mp4" type="video/mp4">
-    </video>
-
-    
-    <!--Project Literacy-->
-    <section class="literacy-project">
-        <div class="image-container">
-            <img src="images/beelogo.png" alt="Bright Book Bees">
-        </div>
-        <div class="text-container">
-            <h2>Our Literacy Project</h2>
-            <ul>
-                <li>One of the interventions by <strong>Fundanomics</strong> is a literacy <strong>programme</strong> called <strong>BRIGHT BOOK BEES</strong> where the team collects and distributes books for children around Gauteng communities. We also run reading Fridays at local libraries and community centers.</li>
-                <li>Resources are a major challenge in our disadvantaged communities, hence public libraries become an important space for children to read, engage, and freely interact with their counterparts. Public libraries are also safe spaces with technological access when possible.</li>
-            </ul>
-        </div>
-    </section>
-    
-    <!--Other Services-->
-    <section class="other-services">
-        <div class="image-container">
-            <img src="images/logo3.png" alt="Fundanomics Logo">
-        </div>
-        <div class="text-container">
-            <h2>Other Services</h2>
-            <hr>
-            <ul>
-                <li>Educational toys</li>
-                <li>Tailored literacy projects</li>
-                <li>Programme development</li>
-                <li>Editing and writing</li>
-                <li>Community based literature workshops</li>
-            </ul>
-        </div>
-    </section>
-    
-    <!--Contact Section-->
-    <section class="contact-section-alt">
-        <div class="contact-card">
-            <!-- Contact Information -->
-            <div class="contact-info">
-                <h2>Contact Us</h2>
-                <p>Reach out to us through any of the following methods:</p>
-                <div class="contact-info-item">
-                    <img src="images/whatsapp.png" alt="Whatsapp icon">
-                    <a href="tel:+2776 178 9681 ">(076) 178 9681</a>
-                </div>
-                <div class="contact-info-item">
-                    <img src="images/instagram.png" alt="Instagram icon">
-                    <a href="https://www.instagram.com/funda.nomics" target="_blank">@Funda.nomics</a>
-                </div>
-                <div class="contact-info-item">
-                    <img src="images/mail.png" alt="Email icon">
-                    <a href="mailto:info@fundanomics.co.za">info@fundanomics.co.za</a>
-                </div>
-                <div class="contact-info-item">
-                    <img src="images/location.png" alt="Location icon">
-                    <p>72 Doak street, Hazelpark, Lambton 1401</p>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">
+                        Our <span class="highlight">Projects</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Making a difference in communities across South Africa through education and literacy programs.
+                    </p>
                 </div>
             </div>
 
-            <!-- Contact Form -->
-            <div class="contact-form-alt">
-                <h2>Send Us a Message</h2>
-                <form id="contact-form-alt" action="https://formspree.io/f/mldrvlae" method="POST">
-                    <div class="input-field">
-                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            <!-- Project Pilot -->
+            <div class="row mt-5 align-items-center">
+                <div class="col-lg-6">
+                    <div class="project-content">
+                        <h3>Project Pilot - Gauteng Province</h3>
+                        <p>The Fundanomics project team has identified Gauteng Province as a pilot area for the distribution of the Democracy Pack. Our goal is to integrate the learning process with the benefits of understanding democracy.</p>
+                        <div class="video-container mt-4">
+                            <video controls class="project-video">
+                                <source src="images/vid1.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
                     </div>
-                    <div class="input-field">
-                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="col-lg-6">
+                    <div class="project-image">
+                        <img src="images/mandela n child.jpg" alt="Education Impact" class="img-fluid rounded">
                     </div>
-                    <div class="input-field">
-                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+            </div>
+
+            <!-- Bright Book Bees -->
+            <div class="row mt-5 align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="project-content">
+                        <div class="project-logo mb-3">
+                            <img src="images/beelogo.png" alt="Bright Book Bees" class="bee-logo">
+                        </div>
+                        <h3>Bright Book Bees</h3>
+                        <p>Our literacy intervention program where we collect and distribute books for children in Gauteng communities. We also host Reading Fridays at local libraries and community centers.</p>
+                        <p>Public libraries serve as crucial safe spaces with technological access, providing children with opportunities to read, engage, and interact with their peers in disadvantaged communities.</p>
                     </div>
-                    <div class="input-field">
-                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="services-list">
+                        <h4>Our Services</h4>
+                        <div class="service-items">
+                            <div class="service-item">
+                                <i class="fas fa-puzzle-piece"></i>
+                                <span>Educational toys</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="fas fa-book-open"></i>
+                                <span>Tailored literacy projects</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="fas fa-cogs"></i>
+                                <span>Programme development</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="fas fa-pen-fancy"></i>
+                                <span>Editing and writing</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="fas fa-users"></i>
+                                <span>Community literature workshops</span>
+                            </div>
+                        </div>
                     </div>
-                    <button type="submit" class="send-btn">Send Message</button>
-                </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-title">
+                        Get in <span class="highlight">Touch</span>
+                    </h2>
+                    <p class="section-subtitle">
+                        Ready to join our mission? We'd love to hear from you!
+                    </p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6">
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h5>WhatsApp</h5>
+                                    <a href="tel:+27761789681">(076) 178 9681</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h5>Instagram</h5>
+                                    <a href="https://www.instagram.com/funda.nomics" target="_blank">@Funda.nomics</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h5>Email</h5>
+                                    <a href="mailto:info@fundanomics.co.za">info@fundanomics.co.za</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h5>Address</h5>
+                                    <p>72 Doak Street, Hazelpark, Lambton 1401</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message</h3>
+                        <form id="contact-form" action="https://formspree.io/f/mldrvlae" method="POST">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!--Merge Section-->
-    <section class="merge">
-        <img src="images/merge.jpeg" alt="Our merge" class="merge-image">
-        <div class="merge-content">
-            <h2>Fundanomics Gear</h2>
-            <p>Support us and buy our gear😎.</p>
+    <!-- Merchandise Section -->
+    <section class="merchandise-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="merchandise-content">
+                        <h3>Fundanomics Gear</h3>
+                        <p>Support our mission and show your love for education with our exclusive merchandise! 😎</p>
+                        <a href="#contact" class="btn btn-outline-primary">Get Your Gear</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="images/merge.jpeg" alt="Fundanomics Merchandise" class="merchandise-img">
+                </div>
+            </div>
         </div>
     </section>
 
-    <!--Registration-->
-    <section class="reg">
-        <div class="reg-para">
-           <h4>REG:2016/199837/08</h4>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <img src="images/navbar logo.jpg" alt="Fundanomics" class="footer-logo">
+                        <h5>Fundanomics</h5>
+                        <p>Shaping minds today to lead tomorrow through quality educational resources and literacy programs for South African children.</p>
+                        <p class="registration">REG: 2016/199837/08</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#books">Books</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6>Our Books</h6>
+                    <ul class="footer-links">
+                        <li><a href="#books">Ubuntu</a></li>
+                        <li><a href="#books">Democracy</a></li>
+                        <li><a href="#books">Constitution</a></li>
+                        <li><a href="#books">Economy</a></li>
+                        <li><a href="#books">Patriotism</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h6>Contact Info</h6>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 72 Doak Street, Hazelpark, Lambton 1401</p>
+                        <p><i class="fas fa-phone"></i> (076) 178 9681</p>
+                        <p><i class="fas fa-envelope"></i> info@fundanomics.co.za</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/funda.nomics" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:info@fundanomics.co.za">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+27761789681">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="copyright">&copy; 2024 Fundanomics. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="footer-mission">Empowering the next generation through education</p>
+                </div>
+            </div>
         </div>
-    </section>
+    </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
     <script src="slides.js"></script>
 
 </body>
